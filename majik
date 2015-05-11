@@ -46,6 +46,8 @@ def query():
         ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝''')
     elif "qwe" in q:
         print("QWE"*9001)
+    elif "tomorrow" in q:
+        print("I'll tell ya tomorrow")
     else:
         a=random.choice(answers)
         print(a)
